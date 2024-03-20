@@ -1,0 +1,153 @@
+:root {
+  --bg-bar: #171717;
+  --bg-button: #303134;
+  --bg-search-hover: #303134;
+  --border-search: #5F6368;
+  --link-default-color: #8AB4F8;
+  --font-color-grey: #BDC1C6;
+}
+
+.Icon:hover {
+  cursor: pointer;
+}
+
+.TopBar {
+  height: 9vh;
+  width: 99%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 0.9vw;
+  margin-bottom: 13vh;
+}
+
+.TopBar .Link {
+  margin-right: 1vw;
+}
+
+.TopBar .Icon {
+  padding: 0.6vw 0.7vw;
+  margin: 0 0.1vw;
+  font-size: 1.2vw;
+}
+
+.TopBar .Icon:hover {
+  border-radius: 3vw;
+  background: var(--bg-search-hover);
+}
+
+.CenterSearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.LogoContainer {
+  width: 18%;
+  margin-bottom: 1vw;
+}
+
+.Logo {
+  width: 100%;
+}
+
+.SearchBarContainer {
+  border: solid 0.1vw var(--border-search);
+  border-radius: 2vw;
+  height: 3vw;
+  width: 35vw;
+  padding: 0 1vw;
+  margin-bottom: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearchBarContainer:hover {
+  background: var(--bg-search-hover);
+  border: solid 0.1vw var(--bg-search-hover);
+  cursor: text;
+}
+
+.SearchBarContainer .Icon {
+  margin: 0 0.7vw;
+  font-size: 1.3vw;
+}
+
+.SearchBar {
+  background: none;
+  border: none;
+  height: 100%;
+  width: 80%;
+  outline: none;
+  font-size: 1.1vw;
+}
+
+.Buttons {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5vw;
+}
+
+.Button {
+  background: var(--bg-button);
+  border: none;
+  border-radius: 0.3vw;
+  padding: 0.7vw 1vw;
+}
+
+.Button:hover {
+  cursor: pointer;
+  outline: solid 0.1px;
+}
+
+.LanguageLinks p {
+  font-size: 0.9vw;
+  color: var(--font-color-grey);
+}
+
+.LanguageLinks .Link {
+  margin-left: 1vw;
+  color: var(--link-default-color);
+}
+
+.Bar {
+  background-color: var(--bg-bar);
+  height: 3.2vw;
+  margin-top: 0.08vw;
+  padding: 0 2vw;
+  display: flex;
+  align-items: center;
+  font-size: 0.9vw;
+}
+
+#bar1 {
+  position: fixed;
+  bottom: 3.4vw;
+  width: 100vw;
+}
+
+#bar2 {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+#bar2 .Icon {
+  margin-right: 0.6vw;
+}
+
+.LeftLinks {
+  margin-right: 15vw;
+}
+
+
+.RightLinks {
+  margin-left: 20vw;
+}
+
+.Bar .Link {
+  margin-right: 2vw;
+}
